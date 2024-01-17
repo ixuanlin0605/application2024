@@ -1,0 +1,89 @@
+*{
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+html,body{
+width: 100%; height: 100%;
+padding: 0px; margin: 0px;
+}
+
+body{
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  border-top: solid 20px #E4A341; 
+  border-bottom: solid 20px #E4A341; 
+  overflow: hidden;
+}
+.namecard{
+  background-color: #FFFFFF;
+  width: 350px;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    
+  font-weight:100;
+  letter-spacing: 1px;
+  
+  overflow: hidden;
+  
+}
+.namecard h2{
+  font-size: 25px;
+  font-weight: 900;
+  color: #4F4040;
+  line-height: 10px
+}
+.namecard h2 span{
+  font-size: 16px;
+  font-weight: 700;
+  color: #4F4040;
+}
+.namecard h5{
+  font-size: 16px;
+  color: #D48610;
+  line-height: 10px
+}
+.namecard hr{
+  background-color: #D0D0D0;
+  height:1px;
+  border:none;
+}
+.namecard p{
+  letter-spacing: 1.2px;
+  color: #7A7A7A;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+}
+.circle1{
+  right: 50px;
+  bottom: -50px;
+  background-color: #E4A341
+}
+.circle2{
+  right: -50px;
+  top: -50px;
+  border: solid 6px #E4A341;
+}
+
+h3{
+  text-align: center;
+  color:#7A7A7A;
+}
+
+.mark{
+  font-size: 200px;
+  color: rgba(0,0,0,0.035); 
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+}
